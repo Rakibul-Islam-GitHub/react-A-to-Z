@@ -1,0 +1,42 @@
+article{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border: 2px solid blueviolet;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 8px;
+  width: 60%;
+  padding-left: 30px;
+}
+.author{
+  margin-top: -12px;
+}
+.title{
+  text-transform: capitalize;
+}
+.desc:first-letter{
+  text-transform: capitalize;
+}
+.text-center{
+  text-align: center;
+  
+  
+}
+.header{
+  font-size: 2.5em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@media only screen and (min-width: 0) and (max-width: 768px){
+  article{
+    
+    width: 90%;
+    margin-left: 0px !important;
+  }
+}
